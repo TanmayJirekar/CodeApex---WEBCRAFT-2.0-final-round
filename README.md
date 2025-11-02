@@ -11,32 +11,21 @@ EventVerse/
 ├── events.html                # Event catalog with filtering
 ├── event-detail.html          # Individual event details
 ├── schedule.html              # Interactive fest schedule
-├── workshops.html             # Workshop listings
 ├── competitions.html          # Competition showcase
 ├── register.html              # Registration form with validation
 ├── dashboard.html             # User registration dashboard
 ├── gallery.html               # Photo gallery with lightbox
-├── speakers.html              # Keynote speakers & judges
-├── faq.html                   # Accordion FAQ section
 ├── contact.html               # Contact form & info
-├── sponsors.html              # Sponsor showcase
-├── admins.html                # Admin management panel
 ├── style.css                  # Global styles & animations
 ├── main.js                    # Shared functionality
 ├── index.js                   # Homepage specific
 ├── events.js                  # Events page logic
 ├── event-detail.js            # Event details
 ├── schedule.js                # Schedule timeline
-├── workshops.js               # Workshops data
-├── competitions.js            # Competitions data
 ├── register.js                # Registration validation
 ├── dashboard.js               # Dashboard logic
 ├── gallery.js                 # Gallery & lightbox
-├── speakers.js                # Speakers data
-├── faq.js                     # FAQ accordion
 ├── contact.js                 # Contact form
-├── sponsors.js                # Sponsors data
-└── admins.js                  # Admin dashboard
 \`\`\`
 
 ## Features
