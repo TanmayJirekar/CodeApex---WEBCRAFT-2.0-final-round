@@ -2,7 +2,7 @@
 const scheduleData = [
   {
     day: "day1",
-    date: "March 15, 2025",
+    date: "Nov 15, 2025",
     events: [
       { time: "9:00 AM", event: "Registration & Welcome", location: "Main Lobby" },
       { time: "10:00 AM", event: "Opening Ceremony", location: "Tech Auditorium" },
@@ -15,7 +15,7 @@ const scheduleData = [
   },
   {
     day: "day2",
-    date: "March 16, 2025",
+    date: "Nov 16, 2025",
     events: [
       { time: "8:00 AM", event: "Morning Yoga Session", location: "Outdoor Ground" },
       { time: "9:00 AM", event: "AI/ML Hackathon Begins", location: "Tech Hub" },
@@ -27,7 +27,7 @@ const scheduleData = [
   },
   {
     day: "day3",
-    date: "March 17, 2025",
+    date: "Nov 17, 2025",
     events: [
       { time: "9:00 AM", event: "Robotics Challenge", location: "Robotics Lab" },
       { time: "12:00 PM", event: "Final Round Competitions", location: "Multiple Venues" },
