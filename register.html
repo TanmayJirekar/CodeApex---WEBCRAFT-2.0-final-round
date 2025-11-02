@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register – Join EventVerse 2025</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- NAVBAR -->
+  <nav class="navbar">
+  <div class="navbar-container">
+    <a href="index.html" class="logo">
+      <img src="public/logoo.png" alt="EventVerse Logo" class="logo-img">
+      <span class="logo-text">EventVerse</span>
+    </a>
+  <ul class="nav-menu">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</nav>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <ul class="sidebar-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About EventVerse</a></li>
+      <li><a href="events.html">Explore Events</a></li>
+      <li><a href="schedule.html">Fest Schedule</a></li>
+      <li><a href="workshops.html">Workshops</a></li>
+      <li><a href="competitions.html">Competitions</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="dashboard.html">My Dashboard</a></li>
+      <li><a href="speakers.html">Speakers</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="sponsors.html">Sponsors</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="admins.html">Admin Panel</a></li>
+    </ul>
+  </aside>
+
+  <main>
+    <!-- Particle Background -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- REGISTRATION FORM -->
+    <section style="background: var(--bg-primary); padding: 60px 0;">
+      <div class="container" style="max-width: 600px;">
+        <div style="background: var(--bg-surface); padding: 40px; border-radius: 12px; border: 1px solid var(--border-color); box-shadow: 0 0 30px rgba(58, 128, 246, 0.2);">
+          <h2 style="margin-bottom: 30px; text-align: center;">Registration Form</h2>
+          
+          <form id="registrationForm">
+            <div class="form-group">
+              <label for="fullName">Full Name *</label>
+              <input type="text" id="fullName" name="fullName" required>
+              <small id="nameError" style="color: #FF6B6B; display: none; margin-top: 5px; display: block;"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required>
+              <small id="emailError" style="color: #FF6B6B; display: none; margin-top: 5px; display: block;"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" placeholder="10-digit number" required>
+              <small id="phoneError" style="color: #FF6B6B; display: none; margin-top: 5px; display: block;"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="college">College / Organization *</label>
+              <input type="text" id="college" name="college" required>
+            </div>
+
+            <div class="form-group">
+              <label for="event">Select Events (Select at least one) *</label>
+              <div style="margin-top: 10px;">
+                <label style="display: flex; align-items: center; margin-bottom: 12px; cursor: pointer;">
+                  <input type="checkbox" name="events" value="Code Sprint Battle" style="width: auto; margin-right: 10px;">
+                  <span>Code Sprint Battle</span>
+                </label>
+                <label style="display: flex; align-items: center; margin-bottom: 12px; cursor: pointer;">
+                  <input type="checkbox" name="events" value="AI/ML Hackathon" style="width: auto; margin-right: 10px;">
+                  <span>AI/ML Hackathon</span>
+                </label>
+                <label style="display: flex; align-items: center; margin-bottom: 12px; cursor: pointer;">
+                  <input type="checkbox" name="events" value="Web Dev Marathon" style="width: auto; margin-right: 10px;">
+                  <span>Web Dev Marathon</span>
+                </label>
+                <label style="display: flex; align-items: center; margin-bottom: 12px; cursor: pointer;">
+                  <input type="checkbox" name="events" value="Gaming Tournament" style="width: auto; margin-right: 10px;">
+                  <span>Gaming Tournament</span>
+                </label>
+                <label style="display: flex; align-items: center; cursor: pointer;">
+                  <input type="checkbox" name="events" value="Robotics Challenge" style="width: auto; margin-right: 10px;">
+                  <span>Robotics Challenge</span>
+                </label>
+              </div>
+              <small id="eventsError" style="color: #FF6B6B; display: none; margin-top: 10px; display: block;"></small>
+            </div>
+
+            <div class="form-group">
+              <label style="display: flex; align-items: flex-start; cursor: pointer;">
+                <input type="checkbox" id="terms" name="terms" style="width: auto; margin-right: 10px; margin-top: 5px;" required>
+                <span>I agree to the terms and conditions and code of conduct</span>
+              </label>
+              <small id="termsError" style="color: #FF6B6B; display: none; margin-top: 5px;"></small>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 20px; padding: 15px;">Register Now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+
+  <script src="main.js"></script>
+  <script src="register.js"></script>
+</body>
+</html>
